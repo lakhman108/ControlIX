@@ -1,0 +1,8 @@
+/node_modules
+/client/.next
+/client/.husky
+/client/.git
+/client/.eslintrc.json
+/client/.eslintignore
+/client/.husky
+.prettierrc

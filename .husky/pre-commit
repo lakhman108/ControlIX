@@ -1,0 +1,10 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "Running ESLint check on client (excluding .next/)..."
+npm run lint || (
+    echo "❌ ESLint check failed. Fix the errors before committing."
+    false
+)
+
+npx lint-staged --allow-empty

@@ -1,0 +1,65 @@
+
+> sample-server@1.0.0 start
+> nodemon index.js
+
+[33m[nodemon] 3.1.7[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node index.js`[39m
+Server running on port 8082
+MongoDB Connected...
+Auth Attempt!
+{
+  result: [
+    { code: 'switch_led', value: true },
+    { code: 'work_mode', value: 'white' },
+    { code: 'bright_value_v2', value: 239 },
+    { code: 'temp_value_v2', value: 395 },
+    { code: 'colour_data_v2', value: '{"h":0,"s":1000,"v":1000}' },
+    {
+      code: 'scene_data_v2',
+      value: '{"scene_num":25,"scene_units":[{"bright":0,"h":40,"s":800,"temperature":0,"unit_change_mode":"gradient","unit_gradient_duration":70,"unit_switch_duration":70,"v":1000},{"bright":0,"h":30,"s":900,"temperature":0,"unit_change_mode":"gradient","unit_gradient_duration":70,"unit_switch_duration":70,"v":1000},{"bright":0,"h":20,"s":900,"temperature":0,"unit_change_mode":"gradient","unit_gradient_duration":70,"unit_switch_duration":70,"v":1000}]}'
+    },
+    { code: 'countdown_1', value: 0 },
+    { code: 'music_data', value: '' },
+    { code: 'control_data', value: '' },
+    { code: 'rhythm_mode', value: 'AAAAAAA=' },
+    { code: 'sleep_mode', value: 'AAA=' },
+    { code: 'wakeup_mode', value: 'AAA=' },
+    { code: 'power_memory', value: 'AAEAAAPoA+gA7wGL' },
+    { code: 'do_not_disturb', value: true },
+    { code: 'cycle_timing', value: 'AAAA' },
+    { code: 'random_timing', value: 'AAAA' }
+  ],
+  success: true,
+  t: 1748435269515,
+  tid: '2b01c0163bbf11f0b0db32518173a227'
+}
+Auth Attempt!
+{
+  result: [
+    { code: 'switch_led', value: true },
+    { code: 'work_mode', value: 'white' },
+    { code: 'bright_value_v2', value: 239 },
+    { code: 'temp_value_v2', value: 395 },
+    { code: 'colour_data_v2', value: '{"h":0,"s":1000,"v":1000}' },
+    {
+      code: 'scene_data_v2',
+      value: '{"scene_num":25,"scene_units":[{"bright":0,"h":40,"s":800,"temperature":0,"unit_change_mode":"gradient","unit_gradient_duration":70,"unit_switch_duration":70,"v":1000},{"bright":0,"h":30,"s":900,"temperature":0,"unit_change_mode":"gradient","unit_gradient_duration":70,"unit_switch_duration":70,"v":1000},{"bright":0,"h":20,"s":900,"temperature":0,"unit_change_mode":"gradient","unit_gradient_duration":70,"unit_switch_duration":70,"v":1000}]}'
+    },
+    { code: 'countdown_1', value: 0 },
+    { code: 'music_data', value: '' },
+    { code: 'control_data', value: '' },
+    { code: 'rhythm_mode', value: 'AAAAAAA=' },
+    { code: 'sleep_mode', value: 'AAA=' },
+    { code: 'wakeup_mode', value: 'AAA=' },
+    { code: 'power_memory', value: 'AAEAAAPoA+gA7wGL' },
+    { code: 'do_not_disturb', value: true },
+    { code: 'cycle_timing', value: 'AAAA' },
+    { code: 'random_timing', value: 'AAAA' }
+  ],
+  success: true,
+  t: 1748435269692,
+  tid: '2b1e4c283bbf11f086057e5fca85e771'
+}

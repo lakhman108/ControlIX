@@ -1,0 +1,30 @@
+{
+  "scripts": {
+    "prepare": "husky install",
+    "lint": "eslint client/ --ignore-pattern '.next/'",
+    "lint:fix": "eslint client/ --fix --ignore-pattern '.next/'"
+  },
+  "devDependencies": {
+    "@eslint/js": "^8.56.0",
+    "@types/react": "^19.0.10",
+    "@typescript-eslint/eslint-plugin": "^8.24.0",
+    "@typescript-eslint/parser": "^8.24.0",
+    "eslint": "^9.26.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^14.0.0",
+    "husky": "^8.0.3",
+    "prettier": "^3.5.1",
+    "typescript": "^5.7.3"
+  },
+  "type": "module",
+  "lint-staged": {
+    "next-pages/**/*.{js,jsx,ts,tsx}": [
+      "prettier --write",
+      "eslint --fix --ignore-pattern '.next/'"
+    ]
+  },
+  "dependencies": {
+    "react-colorful": "^5.6.1",
+    "react-countup": "^6.5.3"
+  }
+}

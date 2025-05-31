@@ -1,0 +1,1 @@
+- Shadcn path: /workspaces/codespaces-blank/ui/apps/www/app/(app)/examples
